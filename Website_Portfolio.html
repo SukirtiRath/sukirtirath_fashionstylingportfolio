@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF=8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Styling Portfolio</title>
+    <link rel="stylesheet" href="./Website_Portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3213a76eed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+<div class="container" >
+<nav>
+    <img src="./logo.png" class="logo">
+    <ul id="sidemenu">
+        <li><a href="#header">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#proficiency">PROFICIENCY</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-ellipsis-vertical" onclick="openmenu()"></i>
+</nav>
+<div class="header-text" id="mainText">
+    <p>Hello!</p>
+    <h1>I'm </h1>
+    <span style="font-family: Arial, Helvetica, sans-serif;">SUKIRTI RATH</span>
+</div>
+</div>
+</div>
+<!-- -----------about----------- -->
+<div id="about">
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+             <img src="imagesuser.JPG">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p style="font-weight: 500;">I'm Sukirti, a fashion student from NIFT, pursuing B.Des in the field of Fashion Communication. I enjoy keeping up to date and learning about all the latest trends in the fashion industry through Fashion Styling!</p>
+
+            <div class="tab-titles">
+                
+                <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                <p class="tab-links" onclick="opentab('experience')">EXPERIENCE</p>
+                <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>FASHION STYLING</span><br>Celebrity Styling<br>Editorial Styling<br>Commercial Styling<br>Advertorial Styling<br>Personal Styling<br>Wardrobe Styling</li>
+                    <li><span>FASHION MEDIA</span><br>Copy Writing<br>Content Writing<br>Fashion Blogging</li>
+                    <li><span>GRAPHIC DESIGN</span><br>Branding and Packaging<br>Illustrations<br>UI/UX<br>Logo Design<br>Publication Design</li>
+                    
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>JUN-AUG</span><br><b>Vostro Design & Fashion Pvt. Ltd., Noida, U.P.</b><br>Assisted in the design process, contributed to styling, and coordinated on the manufacturing of fashion garments for international and renowned brands like Max Mara, MSGM, forte _ forte, Elisabetta Franchi, Pinko, Aspiga London, Lily and Lionel, Ralph Lauren, and other notable labels.</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2021-2025</span><br><b>Bachelor of Design</b><br>National Institute Of Fashion Technology, Bhubaneswar</li>
+                    <li><span>2019-2021</span><br><b>Higher Secondary Education</b><br>Delhi Public School, Kalinga</li>
+                    <li><span>2007-2019</span><br><b>Secondary Education</b><br>St. Joseph's Higher Secondary School, Bhubaneswar</li>
+                </ul>
+            </div>
+        
+
+        </div>
+    </div>
+</div>
+</div>
+<!-- -----------services----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Proficiency</h1>
+    <div class="services-list">
+        <div class="service">
+            <i class="fa-solid fa-shirt"></i>
+            <h2>Styling</h2>
+            <p>I can help you with styling and come up with different options to pair with different outfits and accessories.</p>
+            
+        </div>
+        <div class="service">
+            <i class="fa-solid fa-border-all"></i>
+            <h2>Curating looks and moodboards</h2>
+            <p>I can help you curate different looks and create moodboards for different occasions and themes.</p>
+            
+        </div>
+        <div class="service">
+            <i class="fa-regular fa-comments"></i>
+            <h2>Fashion tips</h2>
+            <p>I can suggest fashion related tips that would help you accentuate your looks.</p>
+            
+        </div>
+    </div>
+</div>
+</div>
+<!-----------portfolio----------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="imagesportfolio-1.JPG">
+                <div class="layer">
+                    <h3 style="color: #fff;"><b>CELEBRITY STYLING</b></h3>
+                    <p style="color: #fff;">Celebrity styling involves curating fashionable looks and outfits for public figures, ensuring they make a statement on red carpets, events, or photo shoots, while aligning with the client's personal style and the occasion's requirements. The goal is to enhance the celebrity's image and create memorable fashion moments.</p>
+                    <!-- <a href="#"><i class="fa-solid fa-link"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="imagesportfolio-2.JPG">
+                <div class="layer">
+                    <h3 style="color: #fff;"><b>FASHION EDITORIAL</b></h3>
+                    <p style="color: #fff;">Editorial styling involves crafting fashion-forward looks and outfits for magazine editorials or fashion spreads, capturing the latest trends and artistic concepts while showcasing creative vision and attention to detail, aiming to create visually striking imagery that resonates with readers and inspires fashion enthusiasts.
+                    </p>
+                    <!-- <a href="#"><i class="fa-solid fa-link"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="imagesportfolio-3.JPG">
+                <div class="layer">
+                    <h3 style="color: #fff;"><b>THEMATIC STYLING</b></h3>
+                    <p style="color: #fff;">Thematic styling focuses on creating cohesive outfits and visuals around specific themes or concepts, incorporating elements such as color schemes, patterns, and accessories to convey a particular mood or story, ensuring every aspect of the styling contributes to the overall theme’s impact.
+                    </p>
+                    <!-- <a href="#"><i class="fa-solid fa-link"></i></a> -->
+                </div>
+            </div>
+        </div>
+        <div class="moreBtn"><a href="./Fashion Styling - Portfolio.pdf" target="_blank">See More &rarr;</a></div>
+    </div>
+</div>
+<!-- contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-regular fa-envelope"></i><b>sukirti.rath@nift.ac.in</b</p>
+            <p><i class="fa-solid fa-phone"></i><b>+91 7978495997</b</p>
+            <div class="social-icons">
+            <a href="https://www.instagram.com/sukirti.rath?igsh=MTh6eDYyN3lscTYycA%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.behance.net/sukirtirath1"><i class="fa-brands fa-square-behance"></i></a>
+            <a href="https://www.linkedin.com/in/sukirti-rath-2715b5268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+
+        </div>
+        <a href="imagesresume.pdf" download class="btn btn2">Download Resume</a>
+    </div>
+    <div class="contact-right">
+        <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="E-mail" placeholder="Your E-mail" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        
+    </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Sukirti Rath</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
